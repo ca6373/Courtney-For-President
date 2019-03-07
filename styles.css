@@ -1,0 +1,44 @@
+h1 {
+   font-family: 'Unlock', cursive;
+   font-size: 50px;
+}
+h2 {
+    font-family: 'Bungee', cursive;
+    font-size: 30px;
+    border: solid red 15px;
+    background-color: blue;
+}
+p {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: blue;
+    padding: 10px;
+}
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+#header {
+    background-color: blue;
+    border: solid red 15px;
+}
+#pics {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+}
+button {
+    font-family: 'Bungee', cursive;
+    padding: 15px;
+    border: solid red 15px;
+    color: black;
+    background-color: blue;
+    font-size: 15px;
+    }
+button:hover {
+    box-shadow: 10px 10px;
+}
